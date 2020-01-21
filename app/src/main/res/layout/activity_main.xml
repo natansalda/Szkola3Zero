@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="@string/podaj_liczbe" />
+
+    <EditText
+        android:id="@+id/twoja_liczba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:hint="@string/twoja_liczba" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sprawd"
+        android:onClick="ocenLiczbe"
+        android:background="@android:color/holo_blue_light"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/text_wyniku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:visibility="invisible"/>
+
+</LinearLayout>
