@@ -34,4 +34,11 @@
         android:textSize="32sp"
         android:visibility="invisible"/>
 
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
 </LinearLayout>
