@@ -3,7 +3,8 @@
     <string name="liczba_mala">Twoja liczba jest bardzo mała</string>
     <string name="podaj_liczbe">Podaj liczbę od 1 do 100</string>
     <string name="twoja_liczba">Twoja liczba</string>
-    <string name="sprawd">Sprawdź</string>
+    <string name="sprawdz">Sprawdź</string>
     <string name="liczba_srednia">Twoja liczba jest średniej wielkości</string>
     <string name="liczba_duza">Twoja liczba jest duża</string>
+    <string name="zgadnij">zgadnij</string>
 </resources>
